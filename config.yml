@@ -1,0 +1,17 @@
+sensor:
+  buzzer:
+    start: True
+    gpio: 10
+  button:
+    start: True
+    gpio: 23
+  air:
+    start: True
+  temp_humi:
+    start: True
+kafka:
+  server: 127.0.0.1
+  monitor_topic: pi_topic
+  alarm_topic: env_raspberrypi
+  error_topic: pi_error
+  prefix: env_raspberrypi_

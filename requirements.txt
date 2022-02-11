@@ -1,0 +1,6 @@
+flask
+gpiozero
+pyyaml
+kafka-python
+paramiko
+py_eureka_client
